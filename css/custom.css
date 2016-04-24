@@ -8,6 +8,10 @@ body{
 .headerutama{
 	background-color:#fff;
 	}
+	
+.headerutama-dalam{
+	background-color:#ECECEC;
+	}
 
 .logoheader{
 	height:102px;
@@ -28,7 +32,7 @@ header .header{
 	}
 
 .navbar-default .navbar-nav > li > a{
-	padding-right:50px;
+	padding-right:30px;
 	font-size:17px;
 	color:#666666;
 	font-weight:lighter;
@@ -114,6 +118,10 @@ article p{
 
 /*SERVICES*/
 
+.thumb{
+	margin-bottom:40px;
+	}
+	
 .service{
 	background-image:url(../images/HP/bg-abstract.jpg);
 	background-size:cover;
@@ -125,7 +133,6 @@ article p{
 .thumbnail{
 	border:none;
 	background-color:transparent;
-	padding-top:20px;
 	}
 
 .service .pservis{
@@ -157,6 +164,7 @@ article p{
 
 .cape{
 	padding:0px;
+	max-width:600px;
 	}
 
 /*GALERI*/
@@ -204,7 +212,6 @@ article p{
 	background-size:cover;
 	overflow:hidden;
 	padding:30px 0px;
-	margin-top:30px;
 	}
 
 .work-with-us h1{
@@ -238,6 +245,8 @@ article p{
 	width:200px;
 	height:56px;
 	}
+	
+
 
 /*FOOTER*/
 
@@ -265,11 +274,200 @@ footer li{
 	color:#fff;
 	font-weight:300;
 	}
+	
+.foot {
+	color:#fff;
+	}
+	
+.logoputih{
+	padding-top:20px;
+	}
+	
+	/*---------------------------------------------------CSS ABOUT VIBI---------------------------------------------------*/
+.about{
+	padding:40px 0px;
+	}	
+	
+.about h1{
+	text-align:left;
+	font-size:38px;
+	line-height:46px;
+	color:#666666;
+	font-weight:300;
+	margin-top:0px;
+	}
+	
+.about p{
+	text-align:left;
+	font-size:14px;
+	line-height:24px;
+	color:#666666;
+	font-weight:300;
+	}
 
+.co-founder{
+	background-image:url(../images/HP/bg-abstract.jpg);
+	background-size:cover;
+	width:100%;
+	height:100%;
+	background-repeat:repeat-y;
+	padding:30px 0px;
+	}
 
+.co-founder h1{
+	text-align:center;
+	font-size:38px;
+	line-height:46px;
+	color:#666666;
+	font-weight:300;
+	margin-top:0px;
+	}
+.co-founder p{
+	text-align:center;
+	font-size:14px;
+	line-height:24px;
+	color:#666666;
+	font-weight:300;
+	max-width:386px;
+	}
+	
+	/*---------------------------------------------------CSS WHY VIBI---------------------------------------------------*/
+	
+.team{
+	padding:40px 0px;
+	}	
+	
+.team h1{
+	text-align:center;
+	font-size:38px;
+	line-height:46px;
+	color:#666666;
+	font-weight:300;
+	margin-top:0px;
+	}
+	
+.team p{
+		text-align:center;
+		}
+		
+.listen h1{
+	text-align:left;
+	font-size:38px;
+	line-height:46px;
+	color:#666666;
+	font-weight:300;
+	margin-top:0px;
+	}
+	
+.listen{
+		padding:40px 0px;
+		}
+	
+.one-stop{
+		background-image:url(../images/why%20vibi/bg-why.jpg);
+		background-size:cover;
+		padding:40px 0px;
+		}
+
+.one-stop h1{
+	text-align:left;
+	font-size:38px;
+	line-height:46px;
+	color:#fff;
+	font-weight:300;
+	margin-top:0px;
+	}
+
+.one-stop p{
+	text-align:left;
+	color:#fff;
+	font-weight:300;
+	margin-top:0px;
+	}
+	
+	
+	/*---------------------------------------------------CSS OUR SERVICES---------------------------------------------------*/
+	
+.care{
+	width:543px;
+	}
+	
+.tab-tae{
+	text-align: center;
+    display: block;
+    max-width: 760px;
+    position: relative;
+    margin: 0 auto;
+    left: 13%;
+	}
+.tab-tae-content{
+	width:800px;
+	text-align:center;
+	margin:30px auto;
+	}
+
+.nav-tabs{
+	border:none;
+	}
+
+.nav-tabs > li > a {
+    margin-right: 11px;
+    line-height: 1.42857143;
+    background-color: #666666;
+    border-radius: 4px 4px 4px 4px;
+	color:#fff;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.our-service h1{
+	text-align:left;
+	font-size:38px;
+	line-height:46px;
+	color:#666666;
+	font-weight:300;
+	display:inline-block;
+	}
+	
+.icon img{
+	margin:0px 20px 20px 0px;
+	
+	}
+
+.our-service hr{
+	margin:10px;
+	}
+
+	/*---------------------------------------------------CSS OUR WORKS---------------------------------------------------*/
+	
+	
+.works ul {
+  padding:0 0 0 0;
+  margin:0 0 0 0;
+}
+.works ul li {
+  list-style:none;
+  margin-bottom:25px;
+}
+.works ul li img {
+  cursor: pointer;
+}
 /*MEDIA QUERRY*/
 
 @media screen and (max-width: 480px){
+	.service{
+		background-image:url(../images/HP/bg-abstract-potrait.jpg);
+		max-width:500px;
+		}
+	
+	.logoheader{
+		text-align:center;
+		}
 	.jumbotron h1{
 		font-size:25px;
 		margin-top:0px;
@@ -280,4 +478,31 @@ footer li{
 		position:relative;
 		top:350px;
 		}
+	
+	.footer-menu{
+		text-align:center;
+		}
+	
+	.our-service h1{
+	text-align:left;
+	font-size:30px;
+	line-height:46px;
+	color:#666666;
+	font-weight:300;
+	display:block;
 	}
+	
+	}
+	
+@media screen and (max-width: 1024px){
+	.service{
+		background-image:url(../images/HP/bg-abstract-medium.jpg);
+		}
+	.footer-menu{
+		text-align:center;
+		}
+	.logoheader{
+		text-align:center;
+		margin-top:32px;
+		}
+}
