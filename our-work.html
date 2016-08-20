@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Works</title>
+
+<!-- Bootstrap -->
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+<link href='dist/simplelightbox.min.css' rel='stylesheet' type='text/css'>
+<link href='css/demo.css' rel='stylesheet' type='text/css'>
+<link rel="icon" href="images/favicon-vb.png" type="image/png" sizes="16x16">
+    
+    <script>
+ 
+</script>
+
+</head>
+<body>
+ 	<header class="container-fluid headerutama-dalam">
+    	<div class="container header">
+            <div class="row ">
+                <div class="col-sm-2 logoheader">
+                    <a href="#"><img src="images/HP/Logo.png" class="img-responsive center-block"></a>
+                </div>
+                <div class="col-sm-10">
+                    <nav class="navbar navbar-default">
+                      <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                          <span class="navbar-brand visible-xs-block" href="#">Menu</span>
+                        </div>   
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    
+                          <ul class="nav navbar-nav navbar-right">
+                            <li><a href="why-vibi.html">Why Vibi</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="our-services.html">Our Services</a></li>
+                            <li><a href="our-work.html">Our Works</a></li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
+                            <li><a class="telpon hidden-xs" href="tel:#"><img src="images/HP/phone-icon.png"><span>+62 21 123 456789</span></a></li>
+                          </ul>
+                          
+                        </div><!-- /.navbar-collapse -->
+                      </div><!-- /.container-fluid -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header><!--HEADER-->
+    <div class="container gambar">
+    	<div class="col-lg-12">
+    		<h1 >Our Works</h1>
+    	</div>
+    </div>
+    
+<div class="container gambar">
+		
+		<div class="gallery gambar">	
+			<a href="images/our-works/img-gallery-1.jpg" class="big"><img class="img-responsive" src="images/our-works/img-gallery-1.jpg" alt="" title="Portfolio gambar 1" /></a>
+			<a href="images/HP/img-gallery-2.jpg"><img class="img-responsive" src="images/HP/img-gallery-2.jpg" alt="" title="Portfolio gambar 2"/></a>
+			<a href="images/HP/img-gallery-3.jpg"><img class="img-responsive" src="images/HP/img-gallery-3.jpg" alt="" title="Portfolio gambar 3"/></a>
+			<a href="images/HP/img-gallery-4.jpg"><img class="img-responsive" src="images/HP/img-gallery-4.jpg" alt="" title="Portfolio gambar 4"/></a>
+			<div class="clear"></div>
+			
+		<a href="images/HP/img-gallery-1.jpg"><img class="img-responsive" src="images/HP/img-gallery-1.jpg" alt="" title="Portfolio gambar 1" /></a>
+			<a href="images/HP/img-gallery-2.jpg"><img class="img-responsive" src="images/HP/img-gallery-2.jpg" alt="" title="Portfolio gambar 2"/></a>
+			<a href="images/our-works/img-gallery-1.jpg" class="big"><img class="img-responsive" src="images/our-works/img-gallery-1.jpg" alt="" title="Portfolio gambar 3"/></a>
+            <a href="images/HP/img-gallery-2.jpg"><img class="img-responsive" src="images/HP/img-gallery-2.jpg" alt="" title="Portfolio gambar 2"/></a>
+			
+			<div class="clear"></div>
+			
+			<a href="images/our-works/img-gallery-1.jpg" class="big"><img class="img-responsive" src="images/our-works/img-gallery-1.jpg" alt="" title="Portfolio gambar 1" /></a>
+			<a href="images/HP/img-gallery-2.jpg"><img class="img-responsive" src="images/HP/img-gallery-2.jpg" alt="" title="Portfolio gambar 2"/></a>
+			<a href="images/HP/img-gallery-3.jpg"><img class="img-responsive" src="images/HP/img-gallery-3.jpg" alt="" title="Portfolio gambar 3"/></a>
+			<a href="images/HP/img-gallery-4.jpg"><img class="img-responsive" src="images/HP/img-gallery-4.jpg" alt="" title="Portfolio gambar 4"/></a>
+			<div class="clear"></div>
+			
+		</div>
+		
+	</div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="dist/simple-lightbox.js"></script>
+
+<script>
+	$(function(){
+		var $gallery = $('.gallery a').simpleLightbox();
+		
+		$gallery.on('show.simplelightbox', function(){
+			console.log('Requested for showing');
+		})
+		.on('shown.simplelightbox', function(){
+			console.log('Shown');
+		})
+		.on('close.simplelightbox', function(){
+			console.log('Requested for closing');
+		})
+		.on('closed.simplelightbox', function(){
+			console.log('Closed');
+		})
+		.on('change.simplelightbox', function(){
+			console.log('Requested for change');
+		})
+		.on('next.simplelightbox', function(){
+			console.log('Requested for next');
+		})
+		.on('prev.simplelightbox', function(){
+			console.log('Requested for prev');
+		})
+		.on('nextImageLoaded.simplelightbox', function(){
+			console.log('Next image loaded');
+		})
+		.on('prevImageLoaded.simplelightbox', function(){
+			console.log('Prev image loaded');
+		})
+		.on('changed.simplelightbox', function(){
+			console.log('Image changed');
+		})
+		.on('nextDone.simplelightbox', function(){
+			console.log('Image changed to next');
+		})
+		.on('prevDone.simplelightbox', function(){
+			console.log('Image changed to prev');
+		})
+		.on('error.simplelightbox', function(e){
+			console.log('No image found, go to the next/prev');
+			console.log(e);
+		});
+	});
+</script>
+
+   <!--END OF WORK WITH US-->
+   
+    <footer class="container-fluid">
+   		<div class="container">
+   		<div class="row footer-menu">
+        	<div class="col-lg-2 hidden-sm hidden-xs">
+            	<h4>VIBI KARYA</h4>
+                <ul>
+                	<li>Home</li>
+                    <li>Why Vibi</li>
+                    <li>About</li>
+                    <li>Our Services</li>
+                    <li>Our Works</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            
+            <div class="col-lg-2 hidden-sm hidden-xs">
+            	<h4>OUR SERVICES</h4>
+                <ul>
+               	  	<li>Pre-Construction</li>
+                    <li>Woodworking</li>
+                    <li>Kitchen Building</li>
+                    <li>General Interior</li>
+                </ul>
+            </div>
+            
+            <div class="col-lg-2 hidden-sm hidden-xs">
+            	<h4>CONNECT</h4>
+                <ul>
+               	  	<li><span><img src="images/HP/fb-icon.png"></span>Facebook</li>
+                    <li><img src="images/HP/twitter-icon.png">Twitter</li>
+                    <li><img src="images/HP/insta-icon.png">Instagram</li>
+                </ul>
+            </div>
+            
+             <div class="col-lg-2 col-sm-6">
+            	<h4>OUR WORKSHOP</h4>
+                <ul>
+               	  	<li>Jl. Atas Bawah Kiri Kanan,Tambun, Bekasi Indonesia, 17131</li>
+                    <li><img src="images/HP/phone-icon-white.png">+62 21 123 456789</li>
+                    
+                </ul>
+            </div>
+            
+            <div class="col-md-3 hidden-xs">
+            	<img class="center-block logoputih" src="images/HP/logo-grayscale.png">
+            </div>
+        </div>
+        <div class="row">
+        	<hr>
+        	<p class="text-center foot">2015 Vibi Karya. All rights reserved.</p>
+        </div>
+        </div>
+   </footer>
+</body>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+</html>
